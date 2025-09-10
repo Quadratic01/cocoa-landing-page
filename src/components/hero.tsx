@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
-
 const hero = () => {
   return (
     <div>
@@ -15,12 +14,15 @@ const hero = () => {
 
       <div className='mt-6 flex gap-4 justify-center items-center'>
         <Input
-          className='max-w-sm'
+          className='max-w-sm py-8 px-12 rounded-4xl'
           type='email'
           placeholder='Enter your email address'
         />
-        <Button> Start 14 days free trail </Button>
+        <Button className='py-8 px-12 rounded-4xl'>
+          Start 14 days free trail
+        </Button>
       </div>
+      <span> </span>
     </div>
   );
 };
