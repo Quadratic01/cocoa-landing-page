@@ -30,15 +30,21 @@ const productPreview = () => {
             deserunt, earum soluta dolore!
           </p>{' '}
         </div>
-        <div className='text-white  mt-16 mb-10 flex w-full gap-x-6 md:gap-x-20'>
-          <h3>3OO+</h3>
-          <p>Products</p>
 
-          <h3>85</h3>
-          <p>Web Templates</p>
+        <div className=' text-4xl flex justify-center mt-10 max-w-600px w-full'>
+          <div className='mr-20'>
+            <h1 className='font-semibold text-3xl mb-2'>3OO+</h1>
+            <p>Products</p>{' '}
+          </div>
+          <div className='mr-20'>
+            <h1 className='font-semibold text-3xl mb-2'>85</h1>
+            <p>Web Templates</p>{' '}
+          </div>
 
-          <h3>215</h3>
-          <p>Mobile Template</p>
+          <div className='mr-20'>
+            <h1 className='font-semibold text-3xl mb-2'>215</h1>
+            <p>Mobile Templates</p>{' '}
+          </div>
         </div>
       </div>
     </div>
