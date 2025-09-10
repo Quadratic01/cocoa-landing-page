@@ -1,10 +1,9 @@
-import React from 'react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 const hero = () => {
   return (
-    <div>
-      <h1 className='text-6xl font-bold mt-10 text-primary'>
+    <div className='flex flex-col justify-center items-center mt-20 text-center px-6'>
+      <h1 className='text-5xl font-bold mt-10 text-primary'>
         Advanced Software that <br /> belongs to all businesses
       </h1>
       <p className='mt-6 text-1xl font-medium text-muted-foreground'>
