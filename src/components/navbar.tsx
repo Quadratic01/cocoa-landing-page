@@ -9,7 +9,9 @@ const navbar = () => {
         <li>Contacts</li>
         <li>Blog</li>
       </ul>
-      <Button className='hover:bg-green-700'>Sign In</Button>
+      <Button className='hover:bg-green-700 py-6 px-6 rounded-2xl'>
+        Sign In
+      </Button>
     </div>
   );
 };
